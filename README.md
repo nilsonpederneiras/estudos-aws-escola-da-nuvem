@@ -19,13 +19,21 @@ Na tentativa de lançar uma instância (Console EC2), a mensagem de erro foi:
 - **Impacto FinOps:** Erros de configuração de rede podem levar ao provisionamento em regiões ou sub-redes mais caras se não houver visibilidade.
 
 ## 🖼️ Evidências (Prints do Console)
-*Aqui você pode inserir os prints que você tirou:*
 
+### Diagnóstico de Acesso ao S3 e IAM
+Ao tentar realizar o upload e acessar o console de permissões, os erros de negação foram registrados:
+<img width="500" alt="Erro de Upload no S3" src="https://github.com/user-attachments/assets/76b03830-4a14-4dde-b17d-1e00d6e751a0" />
+<img width="500" alt="Painel IAM com Acesso Negado" src="https://github.com/user-attachments/assets/2fe9d49f-5fa8-49dc-bdbc-b1a2e189e8ef" />
+
+### Falha de Autorização na EC2
+Abaixo, o erro que impedia a visualização de VPCs para a criação da instância:
+<img width="800" alt="Erro ec2:DescribeVpcs" src="https://github.com/user-attachments/assets/c15a799f-fff1-4dca-bd8b-c3ec288d1394" />
+
+---
+ 
 | Erro de Acesso Negado (S3) | Erro de Autorização (EC2) |
 | :---: | :---: |
-| ![Erro S3](./caminho-para-seu<img width="1360" height="768" alt="Print2" src="https://github.com/user-attachments/assets/11dda549-1904-4521-91a5-594fa822b903" />
--print2.png) | ![Erro EC2](./caminho-para-seu<img width="1360" height="768" alt="Print3" src="https://github.com/user-attachments/assets/0fb3a71c-8170-433f-9f16-0f8b6e2f262e" />
--print3.png) |
+| ![Erro S3](./caminho-para-seu-print2.png) | ![Erro EC2](./caminho-para-seu-print3.png) |
 
 ---
 

@@ -23,7 +23,9 @@ Na tentativa de lançar uma instância (Console EC2), a mensagem de erro foi:
 
 | Erro de Acesso Negado (S3) | Erro de Autorização (EC2) |
 | :---: | :---: |
-| ![Erro S3](./caminho-para-seu-print2.png) | ![Erro EC2](./caminho-para-seu-print3.png) |
+| ![Erro S3](./caminho-para-seu<img width="1360" height="768" alt="Print2" src="https://github.com/user-attachments/assets/11dda549-1904-4521-91a5-594fa822b903" />
+-print2.png) | ![Erro EC2](./caminho-para-seu<img width="1360" height="768" alt="Print3" src="https://github.com/user-attachments/assets/0fb3a71c-8170-433f-9f16-0f8b6e2f262e" />
+-print3.png) |
 
 ---
 

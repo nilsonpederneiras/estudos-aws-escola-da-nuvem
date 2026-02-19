@@ -1,4 +1,4 @@
-# Primeiro Laboratório Executado na Escola da Núvem. AWS Lab: Troubleshooting de Permissões e Segurança (IAM) 🚀
+# Laboratório Executado na Escola da Núvem. AWS Lab: Troubleshooting de Permissões e Segurança (IAM) 🚀
 
 Este repositório documenta a resolução de problemas reais de acesso encontrados durante laboratórios práticos na AWS (Escola da Nuvem), focando no Princípio do Menor Privilégio.
 

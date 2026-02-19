@@ -20,10 +20,12 @@ Na tentativa de lançar uma instância (Console EC2), a mensagem de erro foi:
 
 ## 🖼️ Evidências (Prints do Console)
 
-### Diagnóstico de Acesso ao S3 e IAM
-Ao tentar realizar o upload e acessar o console de permissões, os erros de negação foram registrados:
-<img width="500" alt="Erro de Upload no S3" src="https://github.com/user-attachments/assets/76b03830-4a14-4dde-b17d-1e00d6e751a0" />
-<img width="500" alt="Painel IAM com Acesso Negado" src="https://github.com/user-attachments/assets/2fe9d49f-5fa8-49dc-bdbc-b1a2e189e8ef" />
+| Erro de Acesso Negado (S3) | Erro de Autorização (EC2) |
+| :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/76b03830-4a14-4dde-b17d-1e00d6e751a0" width="400"> | <img src="https://github.com/user-attachments/assets/c15a799f-fff1-4dca-bd8b-c3ec288d1394" width="400"> |
+| *Tentativa de upload negada* | *Falha ao descrever VPCs* |
+
+---
 
 ### Falha de Autorização na EC2
 Abaixo, o erro que impedia a visualização de VPCs para a criação da instância:
